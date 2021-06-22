@@ -1,0 +1,35 @@
+#blueArea {
+  background-color: #398dff;
+  padding-bottom: 10%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+#blueArea .title {
+  display: flex;
+  font-size: 18px;
+}
+
+#blueArea .data {
+  margin-top: 30px;
+}
+
+#blueArea .price {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#box {
+  box-sizing: border-box;
+  position: relative;
+  margin-left: 10%;
+  width: 20%;
+  height: 10%;
+  font-size: 14px;
+  bottom: 30px;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 2;
+}
