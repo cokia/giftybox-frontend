@@ -14,7 +14,7 @@ body {
 
 #blueArea {
   background-color: #398dff;
-  padding-bottom: 14%;
+  padding-bottom: 30%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   color: #ffffff;
@@ -29,16 +29,30 @@ body {
   font-size: 18px;
 }
 
-#blueArea a {
-  margin-top: 10px;
+#blueArea .register-form {
+  margin-top: 10%;
+  display: grid;
+  grid-gap: 3rem;
 }
 
+#blueArea .register-form-input {
+  width: 70%;
+  height: 200%;
+  text-align: center;
+  margin-left: 15%;
+  border-radius: 30px;
+}
+
+#blueArea .register-form-button {
+  width: 30%;
+  height: 5%;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 10%;
+  border-radius: 30px;
+}
 #blueArea .subtitle {
-  /* margin-left: 5%;
-  margin-top: 3.5%; */
-}
-
-#blueArea .price {
-  font-size: 28px;
-  font-weight: bold;
+  margin-top: 3%;
+  margin-left: 3%;
+  font-weight: semi-bold;
 }
