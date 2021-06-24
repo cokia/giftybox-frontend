@@ -1,7 +1,6 @@
 
 <link rel="stylesheet" href="../style/register.css">
-<body>
-<div style="background-color:#F2F4F7">
+<body style="background-color:#F2F4F7">
 <div id='blueArea'>
     <div class=title>
       <svg style="margin-right:10px" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,16 +19,38 @@
       </svg>
       <a>GIFTYBOX</a>
     </div>
-    <a class="subtitle">회원가입</a>
+    <h2>회원가입</h2>
 <form class="register-form">
-  <a class="register-form-text"> 아이디 </a>
+  <div "> 아이디 </div>
     <input class="register-form-input">
     <input class="register-form-input">
     <input class="register-form-input">
     <input class="register-form-input">
   </form>
+</br>
+</br>
 
-  <button class="register-form-button">가입하기</button>
+
+  <div class="inputGroup">
+    <input id="option1" name="option1" type="checkbox"/>
+    <label for="option1">개인정보 수집 및 이용 약관 동의</label>
+  </div>
+  
+  <div class="inputGroup">
+    <input id="option2" name="option2" type="checkbox"/>
+    <label for="option2">개인정보의 제3자 제공에 대한 동의</label>
+  </div>
 </div>
+<!-- <div class='textgroup'> -->
+  <!---
+<a class="register-form-agreetext">개인정보 수집 및 이용 약관 동의</a> 
+<input style="margin-left: 20%" type="radio" id="huey" name="drone" value="huey" checked>
+</br>
+</br>
+  <a class="register-form-agreetext">개인정보의 제3자 제공에 대한 동의</a>
+-->
+
+  <!-- </div> -->
+  <button class="register-form-button">가입하기</button>
 </div>
 </body>
