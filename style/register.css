@@ -21,7 +21,6 @@ body {
   z-index: 0;
 }
 
-
 #blueArea .title {
   display: flex;
   text-align: center;
@@ -38,10 +37,11 @@ body {
 
 #blueArea .register-form-input {
   width: 80%;
-  height: 250%;
+  height: 5%;
   text-align: center;
   margin-left: 10%;
   border-radius: 12px;
+  /* margin-top: 5%; */
   border: 0px;
 }
 .register-form-agreetext {
@@ -50,8 +50,16 @@ body {
   font-weight: 500;
   margin-top: 3%;
 }
+h2 {
+  margin-left: 5%;
+  margin-bottom: 6%;
+}
 .textgroup {
   margin-top: 10%;
+}
+.register-form-text {
+  margin-top: 10%;
+  margin-left: 10%;
 }
 .register-form-button {
   width: 30%;
@@ -65,6 +73,7 @@ body {
   color: white;
   font-weight: bold;
 }
+
 #blueArea .subtitle {
   margin-top: 3%;
   margin-left: 3%;
