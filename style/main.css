@@ -72,24 +72,27 @@ body {
   flex-shrink: 0;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-#box a {
-  /* margin-top: 30%; */
+#box p {
   margin-left: 10%;
   color: #001026;
+  margin-bottom: 0px;
 }
 #box .title {
   /* margin-top: 10px; */
   font-size: 15px;
+  margin-left: 5%;
+  margin-top: 3%;
 }
 #box .price {
   font-weight: bold;
   font-size: 23px;
+  margin-top: 5%;
 }
 #box .total {
-  margin-top: 10px;
+  margin-top: 5%;
   font-weight: regular;
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 10%;
 }
 #itemCards {
   max-width: 1200px;
