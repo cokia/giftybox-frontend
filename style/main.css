@@ -36,12 +36,13 @@ body {
 
 #blueArea .data {
   margin-left: 5%;
-  margin-top: 3.5%;
+  margin-top: 4%;
 }
 
-#blueArea .price {
+#number1 {
   font-size: 28px;
   font-weight: bold;
+  margin-top: 0px;
 }
 #boxs {
   display: flex;
@@ -81,7 +82,7 @@ body {
   font-size: 15px;
 }
 #box .price {
-  font-weight: semi-bold;
+  font-weight: bold;
   font-size: 23px;
 }
 #box .total {

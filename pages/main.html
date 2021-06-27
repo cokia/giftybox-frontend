@@ -1,7 +1,30 @@
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script> -->
+
 <link rel="stylesheet" href="../style/main.css">
 <div style="background-color:#F2F4F7">
 
+  <script>
+    window.onload = function() {
+  price();
+};
+    function price(){
+      console.log("A")
+  var $el = $("#number1");
+  $({ val : 0 }).animate({ val : -850000 }, {
+    duration: 2000,
+    step: function() {
+      $el.text(Math.floor(this.val).toLocaleString()+" 원");
+    },
+    complete: function() {
+      $el.text(Math.floor(this.val).toLocaleString()+" 원");
+    }
+  });
+    }
+    // price()
+  </script>
 <div id='blueArea'>
     <div class=title>
       <svg style="margin-right:10px" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,13 +44,11 @@
       <a>GIFTYBOX</a>
     </div>
     <div class=data>
-      상위 0.7%의 할인을 누리고 계십니다
+      <b>상위 0.7%의 할인</b>을 누리고 계십니다
       <br />
       <br />
-      <div class=price>
-        -1,850,000원
-      </div>
-      <a style="font-size:15px; font-weight: Regular;">지금까지 내가 할인받은 금액</a>
+      <a style="font-size:15px; font-weight: Regular; top: -50;">지금까지 내가 할인받은 금액</a>
+      <h2 style="top: -50" id="number1"></h2> 
     </div>
   </div>
   <div id='boxs'>
@@ -36,7 +57,7 @@
     #1. 스타벅스 <br/>
   </a>
   <a class='price'>
-    -300,000원 <br/>
+    - 300,000원 <br/>
     </a>
     <a class='total'>
     결제액 1,350,000원
@@ -44,9 +65,15 @@
   </div>
     
   <div id='box'>
+    <a class='title'>
     #2. 스타벅스 <br/>
-    -300,000원 <br/>
+  </a>
+  <a class='price'>
+    - 300,000원 <br/>
+    </a>
+    <a class='total'>
     결제액 1,350,000원
+    </a>
   </div>
 
   <div id='box'>
