@@ -1,0 +1,129 @@
+@import url('https://rsms.me/inter/inter.css');
+html {
+  font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+body {
+  margin: 0px;
+}
+
+#blueArea {
+  background-color: #398dff;
+  padding-bottom: 14%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #ffffff;
+  z-index: 0;
+}
+
+#blueArea .title {
+  display: flex;
+  text-align: center;
+  margin-left: 3%;
+  padding-top: 3%;
+  font-size: 18px;
+}
+
+#blueArea a {
+  margin-top: 10px;
+}
+
+#blueArea .data {
+  margin-left: 5%;
+  margin-top: 4%;
+}
+#detail {
+  background-color: rgba(247, 247, 248, 0.85);
+  height: 100%;
+  box-shadow: 0px 10px 20px rgba(44, 37, 210, 0.05);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  white-space: nowrap;
+  top: -50px;
+  position: relative;
+  backdrop-filter: blur(72px);
+  z-index: 1;
+}
+#detail-button {
+  width: 288px;
+  height: 46px;
+  background-color: rgba(57, 141, 255, 1);
+  box-shadow: 8px 10px 20px rgba(57, 141, 255, 0.5);
+  border-radius: 12px;
+  border: 0.1px;
+  margin-left: 20%;
+  margin-top: 5%;
+  color: white;
+  width: 60%;
+  height: 5%;
+  /* font-weight: bold; */
+  font-size: 19px;
+}
+#info {
+  margin-top: 48%;
+  word-wrap: break-word;
+  white-space: normal;
+}
+#textArea {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+#itemCard img {
+  margin-top: 15%;
+  float: left;
+  margin-left: 8%;
+  /* margin-top: 5px; */
+}
+#itemCard .discount {
+  position: absolute;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  opacity: 1;
+  top: 7rem;
+  left: 34.5%;
+  text-align: right;
+  font-size: 23px;
+}
+#itemCard .date {
+  width: 232px;
+  color: rgba(0, 16, 38, 1);
+  position: absolute;
+  top: 10rem;
+  left: 12%;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 13px;
+  opacity: 0.75;
+  text-align: right;
+}
+#itemCard .title {
+  color: rgba(0, 16, 38, 1);
+  position: relative;
+  top: 70px;
+  left: 30px;
+  /* left: 30px; */
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 0.75;
+  text-align: right;
+}
+
+.card-wrapper {
+    /* margin-top: 30%; */
+    padding-top: 15%;
+}
+.card-input-group{
+    margin-left: 14%;
+    margin-top : 15%;
+}
+.card-input-form{
+    margin: 3%;
+    height: 3%;
+}
