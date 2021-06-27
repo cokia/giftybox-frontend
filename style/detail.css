@@ -8,7 +8,6 @@ html {
   }
 }
 
-
 body {
   margin: 0px;
 }
@@ -16,7 +15,7 @@ body {
 #blueArea {
   background-color: #398dff;
   padding-bottom: 14%;
-;  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   color: #ffffff;
   z-index: 0;
@@ -38,85 +37,47 @@ body {
   margin-left: 5%;
   margin-top: 4%;
 }
-
-#number1 {
-  font-size: 28px;
-  font-weight: bold;
-  margin-top: 0px;
-}
-#boxs {
-  display: flex;
-  overflow-x: scroll;
+#detail {
+  background-color: rgba(247, 247, 248, 0.85);
+  height: 100%;
+  box-shadow: 0px 10px 20px rgba(44, 37, 210, 0.05);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
   white-space: nowrap;
-  /* margin-left: 2.5%; */
-  margin-right: 3%;
-  width: 95%;
-  position: relative;
   top: -50px;
-  /* z-index:1; */
-}
-
-#box {
-  box-sizing: border-box;
-  /* position: relative; */
-  /* display:inline-block; */
-  margin-left: 7%;
-  width: 200px;
-  height: 100px;
-  border-radius: 10px;
-  margin-bottom: 2px;
-  font-size: 18px;
-  bottom: 5%;
-  background: rgba(255, 255, 255, 0.85);
-  z-index: 2;
-  flex-shrink: 0;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-#box a {
-  /* margin-top: 30%; */
-  margin-left: 10%;
-  color: #001026;
-}
-#box .title {
-  /* margin-top: 10px; */
-  font-size: 15px;
-}
-#box .price {
-  font-weight: bold;
-  font-size: 23px;
-}
-#box .total {
-  margin-top: 10px;
-  font-weight: regular;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-#itemCards {
-  max-width: 1200px;
-  margin: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  width: 100%;
-  height: 70%;
-  display: grid;
-  grid-gap: 1.2rem;
-}
-
-#itemCard {
   position: relative;
-  background-color: white;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 20px;
-  color: black;
-  padding: 1rem;
-  height: 6rem;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(72px);
+  z-index: 1;
+}
+#detail-button {
+  width: 288px;
+  height: 46px;
+  background-color: rgba(57, 141, 255, 1);
+  box-shadow: 8px 10px 20px rgba(57, 141, 255, 0.5);
+  border-radius: 12px;
+  border: 0.1px;
+  margin-left: 20%;
+  margin-top: 5%;
+  color: white;
+  width: 60%;
+  height: 5%;
+  /* font-weight: bold; */
+  font-size: 19px;
+}
+#info {
+  margin-top: 48%;
+  word-wrap: break-word;
+  white-space: normal;
+}
+#textArea {
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 #itemCard img {
-  float: right;
-  margin-right: 15px;
+  margin-top: 15%;
+  float: left;
+  margin-left: 8%;
   /* margin-top: 5px; */
 }
 #itemCard .discount {
@@ -124,31 +85,32 @@ body {
   font-family: Inter;
   font-weight: Semi Bold;
   opacity: 1;
-  top: 4rem;
-  left: 30px;
-  text-align: left;
+  top: 7rem;
+  left: 34.5%;
+  text-align: right;
   font-size: 23px;
 }
 #itemCard .date {
   width: 232px;
   color: rgba(0, 16, 38, 1);
   position: absolute;
-  top: 6rem;
-  left: 30px;
+  top: 10rem;
+  left: 12%;
   font-family: Inter;
   font-weight: Regular;
   font-size: 13px;
   opacity: 0.75;
-  text-align: left;
+  text-align: right;
 }
 #itemCard .title {
   color: rgba(0, 16, 38, 1);
-  position: absolute;
-  top: 15px;
+  position: relative;
+  top: 70px;
   left: 30px;
+  /* left: 30px; */
   font-family: Inter;
   font-weight: Bold;
   font-size: 18px;
   opacity: 0.75;
-  text-align: left;
+  text-align: right;
 }
