@@ -1,6 +1,8 @@
 
-<link rel="stylesheet" href="../style/register.css">
+<link rel="stylesheet" href="../style/login.css">
 <body style="background-color:#F2F4F7">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 <div id='blueArea'>
     <div class=title>
       <svg style="margin-right:10px" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,14 +22,16 @@
       <a>GIFTYBOX</a>
     </div>
     <h2>로그인</h2>
-    <div class="register-form-group">
-    <span class="register-form-text">아이디 </br></span>
-    <input class="register-form-input">
+    <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_aqxyiq.json" background="transparent" speed="1"  style="width: 100%; height: 300px;" loop autoplay></lottie-player>
+
+    <div class="login-form-group" style="margin-top: 20%">
+    <span class="login-form-text">아이디 </br></span>
+    <input class="login-form-input">
   </div>
   </br>
-  <div class="register-form-group">
-    <span class="register-form-text">비밀번호 </br></span>
-    <input class="register-form-input">
+  <div class="login-form-group" style="margin-top: 10%">
+    <span class="login-form-text">비밀번호 </br></span>
+    <input class="login-form-input">
     </div>
   </br>
 </div>
@@ -44,8 +48,8 @@
 -->
 
   <!-- </div> -->
-  <button class="register-form-button">가입하기</button>
-  <button class="register-form-button">가입하기</button>
+  <button onclick="location.href = '../main.html' "class="login-form-button">로그인하기</button>
+  <button onclick="location.href = './register.html' "class="login-form-button">가입하기</button>
 
 </div>
 </body>

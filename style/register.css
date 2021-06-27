@@ -61,6 +61,20 @@ h2 {
   margin-top: 10%;
   margin-left: 10%;
 }
+.register-form-button:disabled{
+  width: 30%;
+  height: 5%;
+  background-color: #398dff;
+  opacity: 80%;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 7%;
+  border-radius: 30px;
+  border: 0px;
+  color: white;
+  font-weight: bold;
+}
+
 .register-form-button {
   width: 30%;
   height: 5%;

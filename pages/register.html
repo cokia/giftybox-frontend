@@ -1,5 +1,15 @@
 
 <link rel="stylesheet" href="../style/register.css">
+<script type="text/javascript">
+  function chk_valid(){
+    if(document.getElementById("option2").checked === false || document.getElementById("option1").checked === false ){
+      alert("약관에 동의해주세요");
+    }
+    else{
+      window.location.assign("login.html");
+    }
+  }
+  </script>
 <body style="background-color:#F2F4F7">
 <div id='blueArea'>
     <div class=title>
@@ -64,6 +74,8 @@
 -->
 
   <!-- </div> -->
-  <button class="register-form-button">가입하기</button>
+  <!-- <button onclick="location.href = './login.html' "class="register-form-button">가입하기</button> -->
+  <button onclick="chk_valid()" type="submit" class="register-form-button">가입하기</button>
+
 </div>
 </body>
