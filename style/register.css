@@ -28,7 +28,9 @@ body {
   padding-top: 3%;
   font-size: 18px;
 }
-
+#blueArea .register-form-group {
+  margin-top: 5%;
+}
 #blueArea .register-form {
   margin-top: 10%;
   display: grid;
@@ -53,12 +55,13 @@ body {
 h2 {
   margin-left: 5%;
   margin-bottom: 6%;
+  margin-top: 8%;
 }
 .textgroup {
   margin-top: 10%;
 }
 .register-form-text {
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 10%;
 }
 .register-form-button:disabled{
@@ -104,7 +107,7 @@ h2 {
   position: relative;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 .inputGroup label {
   padding: 12px 30px;
