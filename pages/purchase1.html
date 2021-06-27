@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="../style/card.css">
 
     <div style="background-color:#F2F4F7">
-    
+    <script>
+            function chk_valid_card(){
+  if(document.getElementsByClassName("card-input-form")[0].value === ""){
+    alert("카드번호를 입력해주세요");
+  }
+  else{
+    window.location.assign("./purchase2.html");
+  }
+}
+    </script>
       <script>
         window.onload = function() {
       price();
@@ -60,9 +69,13 @@
             <div class='card-wrapper'></div>
             <script src="../js/card.js"></script>
             <form class="card-input-group">
-                <input class="card-input-form" placeholder="Card number" type="tel" name="number">
+                <p class="card-input-text">카드번호 </br></p>
+                <input class="card-input-form" placeholder="Card number" type="tel" name="number"><br>
+                <p class="card-input-text">카드 소유주 명 </br></p>
                 <input class="card-input-form" placeholder="Full name" type="text" name="name"><br>
-                <input class="card-input-form" placeholder="MM/YY" type="tel" name="expiry">
+                <p class="card-input-text">유효기간 </br></p>
+                <input class="card-input-form" placeholder="MM/YY" type="tel" name="expiry"><br>
+                <p class="card-input-text">CVC </br></p>
                 <input class="card-input-form" placeholder="CVC" type="number" name="cvc"><br>
             </form>
             <script>
@@ -81,6 +94,6 @@
             </script>
 
             
-    <button onclick="location.href = './purchase1.html' " id="detail-button"> 혜택 받고 바로 구매하기 🎉 </button>
+    <button onclick="chk_valid_card()" id="detail-button"> 혜택 받고 바로 구매하기 🎉 </button>
         </div>
             </body> 
