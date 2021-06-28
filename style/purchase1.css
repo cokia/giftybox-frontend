@@ -1,15 +1,13 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+    background-color:white;
+
 }
 @supports (font-variation-settings: normal) {
   html {
-    font-family: 'Inter var', sans-serif;
+    font-family: "Inter var", sans-serif;
   }
-}
-
-body {
-  margin: 0px;
 }
 
 #blueArea {
@@ -39,7 +37,6 @@ body {
 }
 #detail {
   background-color: rgba(247, 247, 248, 0.85);
-  height: 100%;
   box-shadow: 0px 10px 20px rgba(44, 37, 210, 0.05);
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -116,26 +113,25 @@ body {
 }
 
 .card-wrapper {
-    /* margin-top: 30%; */
-    padding-top: 15%;
+  /* margin-top: 30%; */
+  padding-top: 15%;
 }
-.card-input-group{
-    margin-left: 18%;
-    margin-top : 15%;
+.card-input-group {
+  margin-left: 18%;
+  margin-top: 15%;
 }
-.card-input-form{
-    /* margin: 3%; */
-    /* margin-top: 5%; */
-    height: 3.5%;
-    width: 80%;
-    border-radius: 30px;
-    /* border: 3px;
+.card-input-form {
+  /* margin: 3%; */
+  /* margin-top: 5%; */
+  height: 3.5%;
+  width: 80%;
+  border-radius: 30px;
+  /* border: 3px;
     border-color:rgba(0, 16, 38, 1) */
-    border-width: 0px;
+  border-width: 0px;
 }
-.card-input-text{
-    /* margin: 3%; */
-    margin-top: 5%;
-    margin-bottom: 1%;
-
+.card-input-text {
+  /* margin: 3%; */
+  margin-top: 5%;
+  margin-bottom: 1%;
 }

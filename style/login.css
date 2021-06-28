@@ -1,15 +1,13 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+    background-color:white;
+
 }
 @supports (font-variation-settings: normal) {
   html {
-    font-family: 'Inter var', sans-serif;
+    font-family: "Inter var", sans-serif;
   }
-}
-
-body {
-  margin: 0px;
 }
 
 #blueArea {
@@ -58,12 +56,12 @@ h2 {
 }
 .login-form-button {
   /* display: flex; */
-  width: 30%;
-  height: 5%;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
   background-color: #398dff;
   text-align: center;
-  margin-left: 35%;
-  margin-top: 3%;
+  margin-top: 18px;
   border-radius: 30px;
   border: 0px;
   color: white;
@@ -104,7 +102,7 @@ h2 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  content: '';
+  content: "";
   background-color: #398dff;
   position: absolute;
   left: 50%;
@@ -117,7 +115,7 @@ h2 {
 .inputGroup label:after {
   width: 32px;
   height: 32px;
-  content: '';
+  content: "";
   border: 2px solid #398dff;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.414 11L4 12.414l5.414 5.414L20.828 6.414 19.414 5l-10 10z' fill='%23fff' fill-rule='nonzero'/%3E%3C/svg%3E ");
@@ -167,7 +165,7 @@ h2 {
 
 body {
   background-color: #d1d7dc;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 *,

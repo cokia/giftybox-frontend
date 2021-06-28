@@ -1,22 +1,19 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+    background-color:white;
+
 }
 @supports (font-variation-settings: normal) {
   html {
-    font-family: 'Inter var', sans-serif;
+    font-family: "Inter var", sans-serif;
   }
-}
-
-
-body {
-  margin: 0px;
 }
 
 #blueArea {
   background-color: #398dff;
   padding-bottom: 14%;
-;  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   color: #ffffff;
   z-index: 0;

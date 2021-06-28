@@ -1,0 +1,20 @@
+html {
+  display: flex;
+  justify-content: center;
+    background-color:white;
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background-color: #f2f4f7;
+}
+
+#bluearea {
+  width: 500px;
+}
+
+#detail {
+  height: 100%;
+}
