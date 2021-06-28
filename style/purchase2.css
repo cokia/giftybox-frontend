@@ -64,6 +64,25 @@ body {
   /* font-weight: bold; */
   font-size: 19px;
 }
+#detail-button2 {
+  width: 288px;
+  height: 46px;
+  box-shadow: 8px 10px 20px rgba(57, 141, 255, 0.2);
+  border-radius: 12px;
+  border-width: 0.5px;
+  border-color: #398dff;
+  margin-left: 20%;
+  margin-top: 5%;
+  color: white;
+  width: 60%;
+  height: 5%;
+  /* font-weight: bold; */
+  font-size: 19px;
+  background-color: #fff;
+  color: #398dff;
+  margin-top: 5%;
+  /* box-shadow: 8px 10px 20px rgba(255, 255, 255, 0.5); */
+}
 #info {
   margin-top: 48%;
   word-wrap: break-word;
@@ -116,26 +135,25 @@ body {
 }
 
 .card-wrapper {
-    /* margin-top: 30%; */
-    padding-top: 15%;
+  /* margin-top: 30%; */
+  padding-top: 15%;
 }
-.card-input-group{
-    margin-left: 18%;
-    margin-top : 15%;
+.card-input-group {
+  margin-left: 18%;
+  margin-top: 15%;
 }
-.card-input-form{
-    /* margin: 3%; */
-    /* margin-top: 5%; */
-    height: 3.5%;
-    width: 80%;
-    border-radius: 30px;
-    /* border: 3px;
+.card-input-form {
+  /* margin: 3%; */
+  /* margin-top: 5%; */
+  height: 3.5%;
+  width: 80%;
+  border-radius: 30px;
+  /* border: 3px;
     border-color:rgba(0, 16, 38, 1) */
-    border-width: 0px;
+  border-width: 0px;
 }
-.card-input-text{
-    /* margin: 3%; */
-    margin-top: 5%;
-    margin-bottom: 1%;
-
+.card-input-text {
+  /* margin: 3%; */
+  margin-top: 5%;
+  margin-bottom: 1%;
 }
