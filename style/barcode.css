@@ -51,14 +51,13 @@ body {
   z-index: 1;
 }
 #detail-button {
-  width: 288px;
-  height: 46px;
+
   background-color: rgba(57, 141, 255, 1);
   box-shadow: 8px 10px 20px rgba(57, 141, 255, 0.5);
   border-radius: 12px;
   border: 0.1px;
   margin-left: 20%;
-  margin-top: 30%;
+  margin-top: 15%;
   color: white;
   width: 60%;
   height: 5%;
@@ -75,8 +74,10 @@ body {
     height: 30rem;
     top: 30;
     position: relative;
+    border-width: 1px;
+    border-color: rgba(57, 141, 255, 1);
+    filter: drop-shadow(4px 5px 4px rgba(57, 141, 255,0.25));
 
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 
 #detail-button2 {
@@ -86,10 +87,10 @@ body {
   border-radius: 12px;
   border-width: 0.5px;
   border-color: #398dff;
-  margin-left: 20%;
+  margin-left: 15%;
   margin-top: 5%;
   color: white;
-  width: 60%;
+  width: 70%;
   height: 5%;
   /* font-weight: bold; */
   font-size: 19px;
@@ -99,7 +100,7 @@ body {
   /* box-shadow: 8px 10px 20px rgba(255, 255, 255, 0.5); */
 }
 #info {
-  margin-top: 15%;
+  margin-top: 50%;
   word-wrap: break-word;
   white-space: normal;
 }
@@ -112,9 +113,9 @@ body {
 
 
 #itemCard img {
-    margin-top: 15%;
+    margin-top: 5%;
     float: left;
-    margin-left: 8%;
+    margin-left: 3%;
     /* margin-top: 5px; */
   }
   #itemCard .discount {
@@ -122,8 +123,8 @@ body {
     font-family: Inter;
     font-weight: Semi Bold;
     opacity: 1;
-    top: 11rem;
-    left: 34.5%;
+    top: 9rem;
+    left: 36.5%;
     text-align: right;
     font-size: 23px;
   }
@@ -131,8 +132,8 @@ body {
     width: 232px;
     color: rgba(0, 16, 38, 1);
     position: absolute;
-    top: 13rem;
-    left: 12%;
+    top: 7rem;
+    left: 10%;
     font-family: Inter;
     font-weight: Regular;
     font-size: 13px;
@@ -142,7 +143,7 @@ body {
   #itemCard .title {
     color: rgba(0, 16, 38, 1);
     position: relative;
-    top: 70px;
+    top: 25px;
     left: 30px;
     /* left: 30px; */
     font-family: Inter;
